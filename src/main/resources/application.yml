@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:pass@192.168.0.17:27017/cart?authSource=admin
+      database: cart
+
+server:
+  port: 8044
+
